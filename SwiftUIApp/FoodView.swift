@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FoodView.swift
 //  SwiftUIApp
 //
 //  Created by Айдин Абдурахманов on 08.11.2020.
@@ -8,14 +8,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FoodView: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
+        Text("👩‍❤️‍💋‍👨")
+            .font(.largeTitle)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FoodView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FoodView()
     }
 }

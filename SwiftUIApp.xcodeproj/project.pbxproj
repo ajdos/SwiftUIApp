@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		1E2E1026255843AF000C6EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E1025255843AF000C6EF3 /* AppDelegate.swift */; };
 		1E2E1028255843AF000C6EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E1027255843AF000C6EF3 /* SceneDelegate.swift */; };
-		1E2E102A255843AF000C6EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E1029255843AF000C6EF3 /* ContentView.swift */; };
+		1E2E102A255843AF000C6EF3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E1029255843AF000C6EF3 /* RootView.swift */; };
 		1E2E102C255843B6000C6EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E102B255843B6000C6EF3 /* Assets.xcassets */; };
 		1E2E102F255843B6000C6EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E102E255843B6000C6EF3 /* Preview Assets.xcassets */; };
 		1E2E1032255843B6000C6EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E1030255843B6000C6EF3 /* LaunchScreen.storyboard */; };
+		1EBD97002558688F0046BB78 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD96FF2558688F0046BB78 /* FoodListView.swift */; };
+		1EBD970225586FEE0046BB78 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD970125586FEE0046BB78 /* FoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E2E1022255843AF000C6EF3 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2E1025255843AF000C6EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E2E1027255843AF000C6EF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E2E1029255843AF000C6EF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E2E1029255843AF000C6EF3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		1E2E102B255843B6000C6EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2E102E255843B6000C6EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E2E1031255843B6000C6EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2E1033255843B6000C6EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBD96FF2558688F0046BB78 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		1EBD970125586FEE0046BB78 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				1E2E1025255843AF000C6EF3 /* AppDelegate.swift */,
 				1E2E1027255843AF000C6EF3 /* SceneDelegate.swift */,
-				1E2E1029255843AF000C6EF3 /* ContentView.swift */,
+				1E2E1029255843AF000C6EF3 /* RootView.swift */,
+				1EBD96FF2558688F0046BB78 /* FoodListView.swift */,
+				1EBD970125586FEE0046BB78 /* FoodView.swift */,
 				1E2E102B255843B6000C6EF3 /* Assets.xcassets */,
 				1E2E1030255843B6000C6EF3 /* LaunchScreen.storyboard */,
 				1E2E1033255843B6000C6EF3 /* Info.plist */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBD97002558688F0046BB78 /* FoodListView.swift in Sources */,
+				1EBD970225586FEE0046BB78 /* FoodView.swift in Sources */,
 				1E2E1026255843AF000C6EF3 /* AppDelegate.swift in Sources */,
 				1E2E1028255843AF000C6EF3 /* SceneDelegate.swift in Sources */,
-				1E2E102A255843AF000C6EF3 /* ContentView.swift in Sources */,
+				1E2E102A255843AF000C6EF3 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
