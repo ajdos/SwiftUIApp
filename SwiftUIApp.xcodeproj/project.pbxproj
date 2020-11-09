@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		1E2E1032255843B6000C6EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E1030255843B6000C6EF3 /* LaunchScreen.storyboard */; };
 		1EBD97002558688F0046BB78 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD96FF2558688F0046BB78 /* FoodListView.swift */; };
 		1EBD970225586FEE0046BB78 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD970125586FEE0046BB78 /* FoodView.swift */; };
+		1EBD9705255937150046BB78 /* BetterSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1EBD9704255937150046BB78 /* BetterSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBD9705255937150046BB78 /* BetterSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,9 @@
 			dependencies = (
 			);
 			name = SwiftUIApp;
+			packageProductDependencies = (
+				1EBD9704255937150046BB78 /* BetterSheet */,
+			);
 			productName = SwiftUIApp;
 			productReference = 1E2E1022255843AF000C6EF3 /* SwiftUIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 1E2E1019255843AF000C6EF3;
+			packageReferences = (
+				1EBD9703255937150046BB78 /* XCRemoteSwiftPackageReference "BetterSheet" */,
+			);
 			productRefGroup = 1E2E1023255843AF000C6EF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -350,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EBD9703255937150046BB78 /* XCRemoteSwiftPackageReference "BetterSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/egeniq/BetterSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EBD9704255937150046BB78 /* BetterSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EBD9703255937150046BB78 /* XCRemoteSwiftPackageReference "BetterSheet" */;
+			productName = BetterSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E2E101A255843AF000C6EF3 /* Project object */;
 }
